@@ -23,6 +23,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color:#646670;
+  line-height: 1.5;
 
   position: relative;
 }
@@ -75,6 +76,7 @@ h1, h2 {
 
 .wrapper-primary {
   background-image: var(--background-primary);
+  color: #fff;
 }
 
 .wrapper-secondary {
@@ -101,7 +103,6 @@ h1, h2 {
   }
 
   & p {
-    color: #fff;
     margin-bottom: 2.5rem;
   }
 }
@@ -145,6 +146,7 @@ h1, h2 {
 
   & p {
     text-align: justify;
+    font-weight: 300;
   }
 }
 
@@ -166,4 +168,17 @@ h1, h2 {
 .error {
   background-color: #BC4B51;
   color: orange;
+}
+
+.automation {
+
+  & h2 {
+    font-size: 4.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+
+  & img {
+    width: 100%;
+  }
 }

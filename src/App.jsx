@@ -4,6 +4,7 @@ import { collection, addDoc } from 'firebase/firestore'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import SimpleMandate from './components/SimpleMandate'
+import IntelligentAutomation from './components/IntelligentAutomation'
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Header />
       <Hero joinWaitlist={joinWaitlist} />
       <SimpleMandate />
+      <IntelligentAutomation />
     </div>
   )
 }

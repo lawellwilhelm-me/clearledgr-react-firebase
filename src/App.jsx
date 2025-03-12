@@ -1,7 +1,10 @@
+import Header from './components/Header'
+
+
 const App = () => {
   return (
     <div className="container">
-      Clearledgr
+      <Header />
     </div>
   )
 }

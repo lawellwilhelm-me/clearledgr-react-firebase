@@ -19,7 +19,7 @@ html {
   font-size: 62.5%;
 }
 
-boby {
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
@@ -59,6 +59,53 @@ boby {
   transform: translateY(.6rem);
 }
 
+.wrapper {
+  background-image: var(--background-primary);
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hero {
+
+  & img {
+    max-width: 100%;
+  }
+}
+
+.value-proposition {
+  & h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  & p {
+    color: #fff;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.waitlist-form {
+  display: inline-block;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: 4px;
+
+  & input {
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
 .waitlist-btn {
   font-size: 1.8rem;
   color: #fff;
@@ -67,4 +114,8 @@ boby {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+
+  &:hover {
+    background-color: #0075cd;
+  }
 }

@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import SimpleMandate from './components/SimpleMandate'
 import IntelligentAutomation from './components/IntelligentAutomation'
 import SmartProcess from './components/SmartProcess'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
       <SimpleMandate />
       <IntelligentAutomation />
       <SmartProcess />
+      <Footer joinWaitlist={joinWaitlist}/>
     </div>
   )
 }

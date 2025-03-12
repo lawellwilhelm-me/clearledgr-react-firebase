@@ -188,3 +188,33 @@ h1, h2 {
     width: 100%;
   }
 }
+
+.footer {
+  background-color: var(--color-primary);
+  height: 41rem;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & div {
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  & p {
+    font-size: 3.9rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+  }
+
+  & form {
+    margin-bottom: 5rem;
+  }
+  & .copyright {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+}

@@ -142,11 +142,17 @@ h1, h2 {
     font-size: 4rem;
     font-weight: 400;
     margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
   }
 
   & p {
     text-align: justify;
     font-weight: 300;
+  }
+
+  & p:not(:last-of-type) {
+    margin-bottom: 2rem;
   }
 }
 

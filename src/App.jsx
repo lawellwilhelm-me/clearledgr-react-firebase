@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import SimpleMandate from './components/SimpleMandate'
 import IntelligentAutomation from './components/IntelligentAutomation'
+import SmartProcess from './components/SmartProcess'
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
       <Hero joinWaitlist={joinWaitlist} />
       <SimpleMandate />
       <IntelligentAutomation />
+      <SmartProcess />
     </div>
   )
 }

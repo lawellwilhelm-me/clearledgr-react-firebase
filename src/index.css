@@ -22,8 +22,13 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+  color:#646670;
 
   position: relative;
+}
+
+h1, h2 {
+  color:#16397A;
 }
 
 .container {
@@ -62,11 +67,18 @@ body {
 }
 
 .wrapper {
-  background-image: var(--background-primary);
   padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.wrapper-primary {
+  background-image: var(--background-primary);
+}
+
+.wrapper-secondary {
+  background-color: var(--background-secondary);
 }
 
 .hero {
@@ -119,6 +131,20 @@ body {
 
   &:hover {
     background-color: #0075cd;
+  }
+}
+
+.feature-section {
+  max-width: 50rem;
+
+  & h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  & p {
+    text-align: justify;
   }
 }
 

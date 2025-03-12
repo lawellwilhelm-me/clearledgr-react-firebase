@@ -22,6 +22,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+
+  position: relative;
 }
 
 .container {
@@ -118,4 +120,24 @@ body {
   &:hover {
     background-color: #0075cd;
   }
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.2rem;
+  border-radius: 4px;
+  width: 100%;
+  opacity: .9;
+}
+
+.success {
+  background-color: #DBF9B8;
+  color: #5c824a;
+}
+
+.error {
+  background-color: #BC4B51;
+  color: orange;
 }
